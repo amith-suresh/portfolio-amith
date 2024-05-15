@@ -1,0 +1,206 @@
+
+.navbar{
+    width: 100%;
+    background-color: black;
+
+}
+.container-fluid{
+    padding-left: 760px;
+    padding-right: 50px;
+    color: rgb(34, 164, 101);
+    height: 60PX;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px
+}
+.navbar-link{
+    color:  rgb(34, 164, 101)
+}
+
+*{
+    margin: 0;
+}
+.About:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+.about .abt{
+    color: azure !important;
+}
+.Skill:hover{
+    opacity: 0.2;
+    cursor: pointer;
+    
+}
+
+.Project:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+.Contact:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+.About1{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    
+
+}
+.Name{
+    position:relative;
+    /* left: 150px; */
+    top: 210px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+}
+.picture{
+    position: absolute;
+    left: 355px;
+    bottom: 245px; 
+
+}
+.para{
+    position: absolute;
+    left: 700px;
+    bottom: 200px;
+    text-align: left;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+.secondsection{
+    background-color: rgb(34, 164, 101);
+    width: 100%;
+    min-height: 90vh;
+
+}
+.html{
+    background-color: black;
+    color: rgb(34, 164, 101);
+    border: 3px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 180px;
+    left: 100px;
+    text-align: left;
+    padding-top: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-style: oblique;
+    
+}
+.css{
+    background-color: black;
+    color: rgb(34, 164, 101);
+    border: 3px;
+    border-radius: 10px;
+    width: 310px;
+    height: 200px;
+    position: relative;
+    bottom: 19px;
+    left: 580px;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 13px;
+    padding-top: 30px;
+    padding-right: 5px;
+    font-style: oblique;
+}
+.JS{
+    background-color: black;
+    border: 3px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 215px;
+    left: 1100px;
+    color: rgb(34, 164, 101);
+    font-weight: bolder;
+    font-style: oblique;
+    padding-left: 17px;
+    padding-top: 30px;
+    padding-right: 7px;
+
+}
+.Project1{
+    background-color: black;
+    width: 100%;
+    min-height: 80vh;
+    color: white;
+    padding-left: 120px;
+    padding-top: 120px;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: unset;  
+}
+.linkedin img{
+    transform: scale(0.9);
+    transition: all 3s ease;
+    border-radius: 10px;
+    
+}
+.linkedin:hover img{
+    transform: scale(1);
+}
+.Navbar img{
+    position: absolute;
+    bottom: 100px;
+    left:555px;
+    border-radius: 10px;
+    transition: all 3s ease;
+    transform: scale(0.9);
+}
+.Navbar:hover img{
+    transform: scale(1);
+}
+
+.main{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(34, 164, 101);
+    text-align: center;
+}
+.side{
+    width: 20%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 250px;   
+}
+/* .connect{
+    padding-top: 70px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: rgb(34, 164, 101);
+}
+.container {
+    width: 100%; } */

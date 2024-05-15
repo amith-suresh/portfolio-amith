@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+</script>
+</head>
+<body>
+    <nav  class="navbar">
+        <div class="container-fluid">
+            <div class="About"><a class="navbar-link" href="#about-section">About</a> </div>
+            <div class="Skill"><a class="navbar-link" href="#skill-section">Skill</a></div>
+            <div class="Project"><a class="navbar-link" href="#project-section">Project</a></div>
+            <div class="Contact"><a class="navbar-link" href="#contact-section"> Contact</a></div>
+        </div>
+    </nav>
+    
+    <div class="About1" id="about-section">
+        <div class="Name"><h1 style="padding-left: 17%;">Hi!</h1><p style="padding-left: 13%;"> I'm Amith Suresh</p></div>
+        <div class="white" style="height: 310px;width: 310px;border-radius: 600px;background-color:rgb(34, 164, 101);position: relative;left: 350px;top: 2%;"></div>
+        <div class="picture"><img src="20240411_144237 new.jpg" style="height: 300px; width: 300px;  border-radius: 200px;" alt=""></div>
+        <div class="para"><p>I'm a dedicated and motivated individual<br> with a passion for learning and problem-solving.<br> I enjoy working collaboratively with others to achieve common goals<br> With a strong attention to detail and a proactive approach to tasks,<br> I strive to deliver high-quality results and continuously improve my abilities.<br> I value integrity, honesty, and respect in all aspects of my work,<br> and I'm committed to personal and professional growth.</p></div>
+    </div>
+
+    <div class="Skill1" id="skill-section">
+        <div class="secondsection"><h1 style="text-align: center; color: black;font-style: unset;font-size: 100px; padding-top: 50px;">What I Know</h1>
+            <div class="html">
+                <p1>In HTML, I've got the skills<br> to build websites from scratch.<br> I know how to write neat <br>and organized codethat follows<br> the rules and makes websites <br> easy to use for everyone. <br></p></div>
+                    <div class="css"><p1>My CSS skills are solid.<br> I pay attention to detail to ensure consistency and compatibility across different devices.<br>I can create responsive designs that adapt well to any screen size. </p1></div>
+                    <div class="JS"><p2>My JavaScript skills are<BR> at a beginner level.<br>I'm eager to learn more and <br>expand my knowledge to tackle<BR> more advanced projects <BR>in the future. </p></div>
+                    </div>    </div>
+                    <div>
+                        <div class="full-width-container Project1" id="project-section">
+                            <div class="custom-row">
+                                <div class="col-lg-6">
+                                    <h1>Linkedin UI</h1>
+                                    <div class="linkedin"> <img src="Linkedin UI.png" class="img-fluid" class="max-width=10%" style="width: 70%;"></div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h1 class="text-lg-right school" style="position: relative; left: 300px; bottom: 20px;">W3School NavBar</h1>
+          <div class="Navbar"><img src="Navbar.png" class="img-fluid" class="max-width=10%" style="width: 70%;"></div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<section id="contact-section" class="full-height" style="background-color: rgb(34, 164, 101); width: 100%;">
+    <div class="container";>
+        <div class="intro">
+            
+            <h2 class="heading-2 pt-5 pb-3" data-aos="fade-up" data-aos-delay="100" style="font-style: initial; color: aliceblue;">let's Connect!!</h2>
+        </div>
+  
+        <div class="form" data-aos="fade-up" data-aos-delay="300">
+             <input type="text" required="required" class="form-control my-2" placeholder="Enter name" id="name">
+            <input type="email" required="required" class="form-control my-2" placeholder="Enter email" id="email">
+            <input type="text" required="required" class="form-control my-2" placeholder="Enter subject" id="subject" >
+            <textarea class="form-control" required="required" rows="6" placeholder="Enter message" id="message"></textarea>
+            <button type="submit" class="btn my-4" onclick="sendMail()">
+                Send Message
+            </button>
+        </div>
+  </div>
+</section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "4kXtXBE9dVIV6-5me",
+                });
+        })();
+        </script>
+    </body>
+    </html>
